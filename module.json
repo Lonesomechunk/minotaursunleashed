@@ -53,7 +53,7 @@
       }
     ]
   },
-  "authors": [
+ "authors": [
     {
       "name": "Conner Berkheiser",
       "flags": {}
@@ -63,5 +63,8 @@
       "flags": {}
     }
   ],
+  "url": "https://github.com/Lonesomechunk/cookingunleashed",
+  "manifest": "https://raw.githubusercontent.com/Lonesomechunk/minotaursunleashed/master/module.json",
+  "download": "https://github.com/Lonesomechunk/minotaursunleashed/archive/refs/heads/main.zip",
   "id": "minotaurs-unleashed"
 }
