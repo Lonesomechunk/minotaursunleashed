@@ -1,6 +1,102 @@
 {
+  "id": "minotaurs-unleashed",
   "title": "Minotaurs Unleashed",
   "description": "The minotaurs of Golarion are a powerful and brave band of people who have been overlooked by many over the years, considered by the common folk to be nothing more than violent monsters and worshippers of the demon lord Baphomet. What many don’t know however, is that there are a number of diverse minotaur cultures across Golarion that seek a different path and have long since forged their own destiny. If you wish to play a powerful and cunning ancestry with a complex and untold history, Minotaurs Unleashed is for you!",
+  "version": "1.3",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315"
+  },
+  "authors": [
+    {
+      "name": "Conner Berkheiser",
+      "flags": {}
+    },
+    {
+      "name": "Lyon",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "label": "Minotaurs Unleashed Feats",
+      "name": "minotaurs-feats",
+      "path": "packs/minotaurs-feats.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "Minotaurs Unleashed Ancestry",
+      "name": "minotaurs-ancestry",
+      "path": "packs/minotaurs-ancestry.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "Minotaurs Unleashed Heritages",
+      "name": "minotaurs-heritages",
+      "path": "packs/minotaurs-heritages.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "Minotaurs Unleashed Others",
+      "name": "minotaurs-others",
+      "path": "packs/minotaurs-others.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "Item",
+      "flags": {}
+    },
+    {
+      "label": "Minotaurs Unleashed Journal",
+      "name": "minotaurs-journal",
+      "path": "packs/minotaurs-journal.db",
+      "system": "pf2e",
+      "private": false,
+      "type": "JournalEntry",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "5.11.0",
+          "verified": "5.11.5"
+        }
+      }
+    ]
+  },
+  "packFolders": [
+    {
+      "name": "Golarion Unleashed",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Minotaurs Unleashed",
+          "sorting": "m",
+          "packs": [
+            "minotaurs-feats",
+            "minotaurs-ancestry",
+            "minotaurs-heritages",
+            "minotaurs-others",
+            "minotaurs-journal"
+          ]
+        }
+      ]
+    }
+  ],
   "flags": {
     "minotaurs-unleashed": {
       "pf2e-homebrew": {
@@ -25,46 +121,7 @@
       }
     }
   },
-  "version": "1.2",
-  "packs": [
-    {
-      "label": "MinotaursUnleashed",
-      "name": "MinotaursUnleashed",
-      "path": "packs/minotaursunleashed-ancestry.db",
-      "system": "pf2e",
-      "private": false,
-      "type": "Item",
-      "flags": {}
-    }
-  ],
-  "compatibility": {
-    "minimum": "10.291",
-    "verified": "10.291"
-  },
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
-        "compatibility": {
-          "minimum": "4.6.3"
-        }
-      }
-    ]
-  },
- "authors": [
-    {
-      "name": "Conner Berkheiser",
-      "flags": {}
-    },
-    {
-      "name": "Lyon",
-      "flags": {}
-    }
-  ],
   "url": "https://github.com/Lonesomechunk/cookingunleashed",
   "manifest": "https://raw.githubusercontent.com/Lonesomechunk/minotaursunleashed/master/module.json",
-  "download": "https://github.com/Lonesomechunk/minotaursunleashed/archive/refs/heads/main.zip",
-  "id": "minotaurs-unleashed"
+  "download": "https://github.com/Lonesomechunk/minotaursunleashed/archive/refs/heads/main.zip"
 }
